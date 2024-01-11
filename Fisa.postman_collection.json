@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "ddc04381-416d-4d95-8508-79c6591f81c6",
+		"name": "Fisa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9955870",
+		"_collection_link": "https://planetary-robot-911466-1.postman.co/workspace/ApplyFisa~9428d28f-6a62-425d-9640-1095ea547608/collection/9955870-ddc04381-416d-4d95-8508-79c6591f81c6?action=share&source=collection_link&creator=9955870"
+	},
+	"item": [
+		{
+			"name": "GetDistancia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"input\": \"A-E-B-C-D\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/calculateDistance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculateDistance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Numer Of Trips",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"init\": \"C\",\r\n    \"end\": \"C\",\r\n    \"minStops\": 1,\r\n    \"maxStops\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/numberOfTrips",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"numberOfTrips"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Route Length",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"init\": \"B\",\r\n    \"end\": \"B\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/routeLength",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"routeLength"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Different Routes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"init\": \"C\",\r\n    \"end\": \"C\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8088/differentRoutes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"differentRoutes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
