@@ -20,4 +20,13 @@ docker build -f .\\src\\main\\docker\\Dockerfile.jvm -t applyfisa
 docker run -d -p 8088:8080 applyfisa
 ```
 
+## Pruebas
+
+Para probar el proyecto el repositorio tiene un archivo de postman con los endpoins solicitados.
+
+```shell script
+Fisa.postman_collection.json
+```
+
+
 
