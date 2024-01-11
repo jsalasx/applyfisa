@@ -1,5 +1,7 @@
 # Apply Fisa
 
+### Nota: Los test se ejecutan al compilar el proyecto
+
 ## Requerimientos 
 
 ### JAVA 17

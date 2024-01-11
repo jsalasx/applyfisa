@@ -14,7 +14,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"input\": \"A-E-B-C-D\"\r\n}",
+					"raw": "{\r\n    \"input\": \"A-E-D\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -22,12 +22,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/calculateDistance",
+					"raw": "http://localhost:8088/calculateDistance",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8080",
+					"port": "8088",
 					"path": [
 						"calculateDistance"
 					]
