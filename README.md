@@ -4,6 +4,7 @@
 
 ### JAVA 17
 ### Puerto 8088 libre
+### Docker
 
 ## Compilar el proyecto
 ```shell script
